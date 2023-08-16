@@ -8,7 +8,7 @@
 
 # [Глава 4. Обработка исключений](https://metanit.com/java/tutorial/4.1.php)
 
--   [Program_04](/EXCEPTIONS_HANDLING/src/Exceptions/Program_04.java) - [Оператор throws](https://metanit.com/java/tutorial/4.1.php)
--   [Program_05](/EXCEPTIONS_HANDLING/src/Exceptions/Program_05.java) - [Оператор throws](https://metanit.com/java/tutorial/4.1.php)
--   [Program_06](/EXCEPTIONS_HANDLING/src/Exceptions/Program_06.java) - [Классы исключений](https://metanit.com/java/tutorial/4.2.php) - [Иерархия исключений](/EXCEPTIONS_HANDLING/src/Exceptions/Hierarchy_Exclusions.png)
--   [Program_07](/EXCEPTIONS_HANDLING/src/Exceptions/Program_07.java) - [Создание своих классов исключений](https://metanit.com/java/tutorial/4.3.php)
+-   [Program_04](/src/Exceptions/Program_04.java) - [Оператор throws](https://metanit.com/java/tutorial/4.1.php)
+-   [Program_05](/src/Exceptions/Program_05.java) - [Оператор throws](https://metanit.com/java/tutorial/4.1.php)
+-   [Program_06](/src/Exceptions/Program_06.java) - [Классы исключений](https://metanit.com/java/tutorial/4.2.php) - [Иерархия исключений](/EXCEPTIONS_HANDLING/src/Exceptions/Hierarchy_Exclusions.png)
+-   [Program_07](/src/Exceptions/Program_07.java) - [Создание своих классов исключений](https://metanit.com/java/tutorial/4.3.php)
