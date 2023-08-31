@@ -1,5 +1,5 @@
 package Seminar_2;
-
+// https://docs.google.com/presentation/d/1MBXoy6FTYNOVPfq_WJoVoqGgsdRp8i1vBSa7LRnyLzg/edit?usp=sharing
 /** 
  * Реализуйте метод, который считывает данные из файла и сохраняет в двумерный массив 
  * (либо HashMap, если студенты с ним знакомы). В отдельном методе нужно будет пройти 
