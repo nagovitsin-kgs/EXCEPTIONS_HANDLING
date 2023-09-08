@@ -69,7 +69,24 @@ public class Main {
             // Проверяем количество введённых данных
             if (parts.length != 6) {
                 System.out.println("Ошибка ввода данных. Попробуйте ещё раз.");
+                continue;
             }
+            String lastName = parts[0];
+            String firstName = parts[1];
+            String patronymic = parts[2];
+            String dateOfBirth = parts[3];
+            String phoneNumber = parts[4];
+            String gender = parts[5];
+            // Проверяем форматы данных
+            if (!isValidDate(dateOfBirth) || !isValidPhoneNumber(phoneNumber) || !isValidGender(gender)) {
+                System.out.println("Ошибка ввода данных. Попробуйте ещё раз.");
+                continue;
+            }
+            // Форматируем строку для записи в файл
+            String danaString = lastName + " " + firstName + " " + patronymic + " " + dateOfBirth + " " + phoneNumber
+                    + " " + gender + " ";
+            // Записываем данные в файл
+
         }
     }
 
