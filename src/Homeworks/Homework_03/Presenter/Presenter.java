@@ -21,7 +21,7 @@ public class Presenter<V extends View> {
         boolean wokring = true;
         do {
             String input = view.getInput(
-                    "Введите данные через пробел (Фамилию Имя Отчество ДатуРождения НомерТелефона Пол), или Exit для прекращения программы:");
+                    "Введите данные через пробел (Фамилию Имя Отчество ДатуРождения НомерТелефона Пол), или Exit для прекращения программы:\n=>");
             if (input.equals("Exit")) {
                 wokring = false;
                 break;
