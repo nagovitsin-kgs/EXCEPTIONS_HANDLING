@@ -17,7 +17,7 @@ public class DataChecker {
     public DataChecker() {
     }
 
-    public void CheckData(String[] splitedString) throws ParsingDataStringException {
+    public void checkData(String[] splitedString) throws ParsingDataStringException {
         if (splitedString == null) {
             throw new NullPointerException("Нет данных");
         }

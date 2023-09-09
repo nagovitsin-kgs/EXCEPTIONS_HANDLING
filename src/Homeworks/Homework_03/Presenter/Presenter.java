@@ -39,7 +39,7 @@ public class Presenter<V extends View> {
                 } else {
                     try {
                         model = new DataChecker();
-                        model.CheckData(splitedInput);
+                        model.checkData(splitedInput);
                         writePersonData(model);
                     } catch (IOException e) {
                         e.printStackTrace();
